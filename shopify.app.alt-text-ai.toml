@@ -2,12 +2,11 @@
 
 client_id = "8d63f8a392810e08cb0e270dacfaff59"
 name = "Alt Text AI"
-application_url = "https://shopify.dev/apps/default-app-home"
+application_url = "https://alt-text-ai-shopify.fly.dev"
 embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
-include_config_on_deploy = true
 
 [webhooks]
 api_version = "2026-07"
@@ -37,4 +36,8 @@ api_version = "2026-07"
 scopes = "read_products,write_products"
 
 [auth]
-redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+redirect_urls = [
+  "https://alt-text-ai-shopify.fly.dev/auth/callback",
+  "https://alt-text-ai-shopify.fly.dev/auth/shopify/callback",
+  "https://alt-text-ai-shopify.fly.dev/api/auth/callback"
+]
