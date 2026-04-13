@@ -1,3 +1,14 @@
 .cache
 build
 node_modules
+.env
+.env.*
+.git
+.github
+.shopify
+screenshots
+scripts
+*.md
+fly.toml
+prisma/dev.sqlite
+prisma/dev.sqlite-journal
