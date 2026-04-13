@@ -1,9 +1,10 @@
-app = "alt-text-ai-shopify"
+app = "alt-text-ai-app"
 primary_region = "nrt"
 
 [build]
 
 [env]
+  HOST = "0.0.0.0"
   PORT = "3000"
   NODE_ENV = "production"
   DATABASE_URL = "file:/data/prod.sqlite"

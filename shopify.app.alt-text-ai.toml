@@ -2,7 +2,7 @@
 
 client_id = "8d63f8a392810e08cb0e270dacfaff59"
 name = "Alt Text AI"
-application_url = "https://alt-text-ai-shopify.fly.dev"
+application_url = "https://alt-text-ai-app.fly.dev"
 embedded = true
 
 [build]
@@ -37,7 +37,7 @@ scopes = "read_products,write_products"
 
 [auth]
 redirect_urls = [
-  "https://alt-text-ai-shopify.fly.dev/auth/callback",
-  "https://alt-text-ai-shopify.fly.dev/auth/shopify/callback",
-  "https://alt-text-ai-shopify.fly.dev/api/auth/callback"
+  "https://alt-text-ai-app.fly.dev/auth/callback",
+  "https://alt-text-ai-app.fly.dev/auth/shopify/callback",
+  "https://alt-text-ai-app.fly.dev/api/auth/callback"
 ]
